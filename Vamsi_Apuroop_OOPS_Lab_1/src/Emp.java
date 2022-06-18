@@ -74,7 +74,7 @@ public class Emp {
 	public static void main(String[] args) {
 		
 		Credential_Service obj1=new Credential_Service("Vamsi","matta");
-		System.out.println("Please enter the department for the following :\n 1.Technical \n 2.Admin \n 3.Human Resource \n 4.Legal \n ");
+		System.out.println("Please enter the department from the following :\n 1.Technical \n 2.Admin \n 3.Human Resource \n 4.Legal \n ");
 		Scanner sc=new Scanner(System.in);
 		int option=sc.nextInt();
 		String res=obj1.genarate_Email(option);
